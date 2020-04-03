@@ -4,8 +4,6 @@ body
 {
 text-align: center;
 font-family: "Montserrat-Bold";
-
-
 }
 
 h1, h2, h3, h4, h5, h6
@@ -17,6 +15,7 @@ p
 {
 
 color: #8f8f8f;
+font-size: 20px;
 }
 
 /* Headings */
@@ -38,6 +37,19 @@ line-height: 1.5;
 {
 padding: 7% 15%;
 }
+
+/* Sections */
+.colored-section
+{
+background-color: #7f78d2;
+color: #fff;
+}
+
+.white-section
+{
+background-color: #ffff;
+}
+
 
 /* Navigation Bar */
 .navbar
@@ -62,7 +74,7 @@ padding: 0 18px;
 .nav-link
 {
 font-size: 1.2rem;
-font-style: Montserrat-light;
+font-style: oblique;
 }
 
 /* Download Buttons */
@@ -74,21 +86,19 @@ margin: 5% 3% 5% 0;
 }
 
 /* Title Section */
-#title
-{
-text-align: left;
-font-family: monospace;
-background-color: #7f78d2;
-color: white;
-}
 
+/* Hierarchical Selector (ex. Selector1 Selector2
+Note: spacing between selectors are crucial)
+"The computer reads the code from right to left."
+*/
 #title .container-fluid
 {
 padding: 3% 15% 7%;
+text-align: left;
+font-family: monospace;
 }
 
 /* Title Image */
-
 .title-image
 
 {
@@ -104,7 +114,6 @@ right: 25%;
 /* Features Sections */
 
 #features
-
 {
 background-color: #ffff;
 position: relative;
@@ -141,12 +150,6 @@ color: #4d3f79;
 
 /* Testimonial Section */
 
-#testimonials
-{
-
-background-color: #7f78d2;
-color: #fff;
-}
 
 .testimonial-text
 {
@@ -163,13 +166,9 @@ width: 100px;
 }
 
 #press
-
 {
-background-color: #7f78d2;
 padding-bottom: 3%;
 font-family: monospace;
-
-
 }
 
 .press-logo
@@ -181,11 +180,9 @@ font-family: monospace;
 
 /* Pricing Section */
 #pricing
-
 {
 padding: 100px;
 font-family: monospace;
-
 }
 
 .price-text
@@ -204,9 +201,7 @@ font-family: monospace;
 /* CTA Section */
 #cta
 {
-background-color: #7f78d2;
 font-family: monospace;
-color: #ffff;
 }
 
 
@@ -221,16 +216,10 @@ margin: 20px 10px;
 
 @media (max-width: 1028px)
 {
-#title
-{
-text-align: center;
-}
 
 .title-image
 {
   position: static;
   transform: rotate(0);
-
-}
 
 }
