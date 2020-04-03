@@ -1,225 +1,168 @@
-
-body
-
-{
-text-align: center;
-font-family: "Montserrat-Bold";
+body {
+  text-align: center;
+  font-family: "Montserrat-Bold";
 }
 
-h1, h2, h3, h4, h5, h6
-{
-font-family: "Montserrat-Bold";
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
 }
 
-p
-{
-
-color: #8f8f8f;
-font-size: 20px;
+p {
+  color: #8f8f8f;
+  font-size: 20px;
 }
 
 /* Headings */
-.big-heading
-{
-font-family: monospace;
-font-size: 3.5rem;
-line-height: 1.5;
+.big-heading {
+  font-family: monospace;
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
-.section-heading
-{
-font-size: 3.5rem;
-line-height: 1.5;
+.section-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
 
 /* Containers */
-.container-fluid
-{
-padding: 7% 15%;
+.container-fluid {
+  padding: 7% 15%;
 }
 
 /* Sections */
-.colored-section
-{
-background-color: #7f78d2;
-color: #fff;
+.colored-section {
+  background-color: #7f78d2;
+  color: #fff;
 }
 
-.white-section
-{
-background-color: #ffff;
+.white-section {
+  background-color: #ffff;
 }
-
 
 /* Navigation Bar */
-.navbar
-
-{
-padding: 0 0 4.5rem;
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
-.navbar-brand
-
-{
-font-weight: bold;
-font-size: 2.5rem;
-font-family: "Ubuntu"
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Ubuntu"
 }
 
-.navbar-item
-{
-padding: 0 18px;
+.navbar-item {
+  padding: 0 18px;
 }
 
-.nav-link
-{
-font-size: 1.2rem;
-font-style: oblique;
+.nav-link {
+  font-size: 1.2rem;
+  font-style: oblique;
 }
 
 /* Download Buttons */
-
-.download-button
-
-{
-margin: 5% 3% 5% 0;
+.download-button {
+  margin: 5% 3% 5% 0;
 }
 
 /* Title Section */
-
 /* Hierarchical Selector (ex. Selector1 Selector2
 Note: spacing between selectors are crucial)
 "The computer reads the code from right to left."
 */
-#title .container-fluid
-{
-padding: 3% 15% 7%;
-text-align: left;
-font-family: monospace;
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+  font-family: monospace;
 }
 
 /* Title Image */
-.title-image
-
-{
-width: 90%;
-
-transform: rotate(25deg);
-position: absolute;
-right: 25%;
-
-
+.title-image {
+  width: 90%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
 }
 
 /* Features Sections */
-
-#features
-{
-background-color: #ffff;
-position: relative;
-z-index: 1;
+#features {
+  background-color: #ffff;
+  position: relative;
+  z-index: 1;
 }
 
-.feature-Title
-
-{
-font-size: 1.5rem;
+.feature-Title {
+  font-size: 1.5rem;
 }
 
-.feature-box
-
-{
-padding: 5%;
-
+.feature-box {
+  padding: 5%;
 }
 
-
-
-.icon
-
-{
-color: #7f78d2;
-margin-bottom: 1rem;
+.icon {
+  color: #7f78d2;
+  margin-bottom: 1rem;
 }
 
-.icon:hover
-{
-color: #4d3f79;
-
+.icon:hover {
+  color: #4d3f79;
 }
 
 /* Testimonial Section */
-
-
-.testimonial-text
-{
+.testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
 }
 
-.testimonial-image
-
-{
-margin: 20px;
-border-radius: 100%;
-width: 100px;
+.testimonial-image {
+  margin: 20px;
+  border-radius: 100%;
+  width: 100px;
 }
 
-#press
-{
-padding-bottom: 3%;
-font-family: monospace;
+#press {
+  padding-bottom: 3%;
+  font-family: monospace;
 }
 
-.press-logo
-
-{
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
 
 /* Pricing Section */
-#pricing
-{
-padding: 100px;
-font-family: monospace;
+#pricing {
+  padding: 100px;
+  font-family: monospace;
 }
 
-.price-text
-{
-font-size: 3rem;
-line-height: 1.5;
-font-family: monospace;
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: monospace;
 }
 
-.pricing-column
-
-{
+.pricing-column {
   padding: 3% 2%;
 }
 
 /* CTA Section */
-#cta
-{
-font-family: monospace;
+#cta {
+  font-family: monospace;
 }
-
 
 /* Footer Section */
-
-.social-icon
-
-{
-margin: 20px 10px;
-
+.social-icon {
+  margin: 20px 10px;
 }
 
-@media (max-width: 1028px)
-{
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  .nav-link
+  {
+  font-size: 20px;
+  }
 
-.title-image
-{
-  position: static;
-  transform: rotate(0);
-
-}
+  }
