@@ -164,5 +164,8 @@ Note: spacing between selectors are crucial)
   {
   font-size: 50px;
   }
+.navbar-dark .navbar-toggler-icon {
+    width: 60px;
+    height: 60px;
 
   }
